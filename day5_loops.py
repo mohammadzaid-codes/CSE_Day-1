@@ -32,8 +32,8 @@ while i <= 5:
 
        
 
-    num = 5
+    num =  int(input("Enter a number for a table"))
     for i in range(1,11):
-        print(num*i)
+        print(num * i)
 
                  
