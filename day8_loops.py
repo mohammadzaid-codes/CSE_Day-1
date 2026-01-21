@@ -1,26 +1,19 @@
-for i in range (1,11):
-    print(i)
+# Multiplication Table
+num = int(input("Enter number for table: "))
 
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
 
-
-
-    num = int(input("Enter anumber for table"))
-
-    for i in range(1,11):
-      print( num*i)
-
-
-
-
+# Sum of numbers
 total_sum = 0
-for i in range (1,11):
- total_sum = total_sum + i
-print ("the sum is", total_sum)
+for i in range(1, 11):
+    total_sum = total_sum + i
 
+print("The sum is", total_sum)
 
-
-
+# While loop
 i = 1
 while i <= 10:
     print(i)
-    i = i+ 1
+    i = i + 1
+ 
